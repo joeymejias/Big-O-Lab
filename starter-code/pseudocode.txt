@@ -7,8 +7,8 @@ func sumArray(var A as array of length n)
     return sum
 end func
 
-Running time: 
-Explanation: 
+Running time: Linear O(n)
+Explanation: Linear time operations increase in time proportionately with the amount of input.
 
 ----------------------------------------------------------------
 
@@ -21,8 +21,8 @@ func sumMatrix(var A as n x n matrix) // A matrix can be represented as an array
     return sum
 end func
 
-Running time: 
-Explanation: 
+Running time: Quadratic O(n^2)
+Explanation: nested for loop would operate in O(n2) time
 
 ----------------------------------------------------------------
 
@@ -37,8 +37,8 @@ func countDivisionsByTwo(var n as int)
     return count
 end func
 
-Running time: 
-Explanation: 
+Running time: Logarithmic O(log(n))
+Explanation: binary search, which operates in O(log n) time.
 
 ----------------------------------------------------------------
 
@@ -52,8 +52,8 @@ func arrayMax(var A as array of length n)
     return currentMax
 end func
 
-Running time: 
-Explanation: 
+Running time: Linear O(n)
+Explanation: Linear time operations increase in time proportionately with the amount of input.
 
 ----------------------------------------------------------------
 
@@ -73,5 +73,5 @@ func bonusFunction(var n as int)
     return total
 end func
 
-Running time: 
-Explanation: 
+Running time: Polynomial?
+Explanation: Doubly nested for loop?
